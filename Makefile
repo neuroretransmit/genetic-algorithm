@@ -24,5 +24,8 @@ $(OBJECTS): $(OBJDIR)%.o: $(SRCDIR)/%.cc
 	@mkdir -p $(OBJDIR)
 	$(CXX) $< -c -o $@
 
+run:
+	./bin/ga
+	
 clean:
 	rm -rfv $(BINDIR) $(OBJDRI)

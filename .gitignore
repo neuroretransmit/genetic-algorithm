@@ -1,2 +1,5 @@
+.kdev4/
 bin/
 obj/
+*.swp
+*.kdev4
